@@ -16,6 +16,7 @@ const Header = () => {
     // Load the menu links data from the API Gateway
     loadMenuLinksData();
   }, []);
+  
     return (
         <header id="intro">
           <article className="fullheight">
